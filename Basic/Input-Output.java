@@ -8,7 +8,8 @@ class Codechef
            
 	   //Syntax => type identifier = type();
 	   Scanner scanner = new Scanner(System.in);
-	   String name = scanner.nextLine();
+	   String name = scanner.nextLine(); // nextLine is used to take string input....
+		                             // for int and double we use nextInt(), nextDouble(), nextBigInteger(), etc...
 	   
 	   System.out.println("Hello " + name);
 	}
